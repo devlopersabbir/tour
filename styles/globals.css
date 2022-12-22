@@ -1,0 +1,14 @@
+/* * {
+  background: #F3F6FD;
+} */
+
+
+#all_Button {
+  background: linear-gradient(90deg, #ff6b34, #ff9433) !important;
+  color: white !important; 
+  transition: ease all 0.3s;
+}
+
+#all_Button:hover {
+  transition: ease all 0.3s;
+}
