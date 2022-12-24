@@ -14,7 +14,12 @@ const PageHeader = ({ title }) => {
       justify="center"
     >
       {title && (
-        <Text fontWeight="700" fontSize="42px" color="white">
+        <Text
+          fontWeight="700"
+          fontSize={{ base: "30px", sm: "35px", md: "42px" }}
+          align="center"
+          color="white"
+        >
           {title}
         </Text>
       )}

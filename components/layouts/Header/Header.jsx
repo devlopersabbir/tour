@@ -59,14 +59,16 @@ const Header = () => {
                   link={item.link}
                 />
               ))}
-              <Button
-                color="white"
-                size="lg"
-                bg="tomato"
-                _hover={{ bg: "red.400", transition: "ease all 0.3s" }}
-              >
-                Let's Talk
-              </Button>
+              <Link href="contact-us">
+                <Button
+                  color="white"
+                  size="lg"
+                  bg="tomato"
+                  _hover={{ bg: "red.400", transition: "ease all 0.3s" }}
+                >
+                  Let's Talk
+                </Button>
+              </Link>
             </Flex>
             <IconButton
               color="tomato"

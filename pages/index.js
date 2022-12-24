@@ -6,7 +6,6 @@ import Package from "../components/Home/Package/Package";
 import Testimonial from "../components/Home/Testimonial/Testimonial";
 import Guide from "../components/Home/Guide-Banner/Guide";
 import Artical from "../components/Home/Artical/Artical";
-import Logo from "../components/Home/LOGO-Caro/Logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +24,6 @@ export default function Home() {
       <Testimonial />
       <Guide />
       <Artical />
-      <Logo />
     </>
   );
 }

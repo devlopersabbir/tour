@@ -3,7 +3,6 @@ import Head from "next/head";
 import PageHeader from "../../components/layouts/PageHeader/PageHeader";
 import Package from "../../components/Home/Package/Package";
 import Guide from "../../components/Home/Guide-Banner/Guide";
-import Logo from "../../components/Home/LOGO-Caro/Logo";
 
 const index = () => {
   return (
@@ -17,7 +16,6 @@ const index = () => {
       <PageHeader title="Hajj & Umrah" />
       <Package />
       <Guide />
-      <Logo />
     </>
   );
 };

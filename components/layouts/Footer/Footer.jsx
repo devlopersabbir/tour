@@ -1,9 +1,10 @@
 import React from "react";
+import Logo from "./LOGO-Caro/Logo";
 
 const Footer = () => {
   return (
     <>
-      {/* <Carousels /> */}
+      <Logo />
       <div>Footer</div>
     </>
   );
